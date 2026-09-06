@@ -4,15 +4,21 @@
     "slug": "timae",
     "version": "1.0.0",
     "orientation": "portrait",
+    "description": "",
     "icon": "./assets/images/icon.png",
     "scheme": "timae",
     "userInterfaceStyle": "automatic",
+    "githubUrl": "https://github.com/rahulsk666/timae",
+    "platforms": ["android", "ios"],
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": {
+        "light": "./assets/images/icon.png",
+        "dark": "./assets/images/icon-dark.png"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#F6F4EF",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
