@@ -7,8 +7,12 @@ export type { Spacing } from "./spacing";
 export { radius } from "./radius";
 export type { Radius } from "./radius";
 
-export { fontFamily, typography } from "./typography";
+export { typography } from "./typography";
 
 export { shadows } from "./shadows";
 
 export { layout } from "./layout";
+
+export { appFontAssets, font, fonts } from "./fonts";
+
+export type { FontFamily, FontWeight } from "./fonts";
